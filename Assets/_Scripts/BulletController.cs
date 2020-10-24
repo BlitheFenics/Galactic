@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * BulletController, Phoenix Makins, 101193192, 10-24-2020, Controls the bullets movement and their boundaries, 1 Revision which converted vertical movement to horizontal movement and changed the boundaries
+ */
 public class BulletController : MonoBehaviour, IApplyDamage
 {
     public float verticalSpeed;
@@ -29,7 +32,7 @@ public class BulletController : MonoBehaviour, IApplyDamage
 
     private void _CheckBounds()
     {
-        if (transform.position.y > verticalBoundary)
+        if (transform.position.x > verticalBoundary)
         {
             bulletManager.ReturnBullet(gameObject);
         }

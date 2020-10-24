@@ -4,6 +4,9 @@ using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
 
+/*
+ * PlayerController, Phoenix Makins, 101193192, 10-24-2020, Controls the players movement their boundaries and the firing of bullets, 1 Revision which converted horizontal movement to vertical movement and changed the boundaries
+ */
 public class PlayerController : MonoBehaviour
 {
     public BulletManager bulletManager;

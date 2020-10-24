@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * BackgroundController, Phoenix Makins, 101193192, 10-24-2020, Controls the backgrounds movement their boundaries and their teleporting, 1 Revision which converted vertical movement to horizontal movement and changed the boundaries
+ */
 public class BackgroundController : MonoBehaviour
 {
     public float verticalSpeed;
